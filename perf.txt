@@ -1,0 +1,31 @@
+xavier init zero bias
+Epoch: 1; Loss: 0.42863; Acc: 0.81188: 100%
+Avg Acc: 0.82112
+Epoch: 2; Loss: 0.35769; Acc: 0.88629: 100%
+Avg Acc: 0.88987
+
+elu init with sqrt(3.0) zero bias
+Epoch: 1; Loss: 0.41520; Acc: 0.73002: 100%
+Avg Acc: 0.73008
+Epoch: 2; Loss: 0.40049; Acc: 0.88491: 100%
+Avg Acc: 0.88561
+
+kaiming init inc bias
+Epoch: 1; Loss: 0.71865; Acc: 0.55015: 100%
+Avg Acc: 0.56035
+Epoch: 2; Loss: 0.56378; Acc: 0.72934: 100%
+
+xavier init zero bias with knowledge projection
+Epoch: 1; Loss: 0.51569; Acc: 0.68898: 100%
+Avg Acc: 0.69174
+Epoch: 2; Loss: 0.05701; Acc: 0.87998: 100%
+Avg Acc: 0.88417
+Epoch: 3; Loss: 0.15583; Acc: 0.90408: 100%
+Avg Acc: 0.90276
+Epoch: 4; Loss: 0.18919; Acc: 0.91293:  13%
+
+same with gradient clipping
+Epoch: 1; Loss: 0.75406; Acc: 0.67530: 100%
+Avg Acc: 0.67401
+Epoch: 2; Loss: 0.05406; Acc: 0.88072: 100%
+Avg Acc: 0.87583
